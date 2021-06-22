@@ -1,5 +1,5 @@
 %Bisection Method
-clear all; clc; f= inline('x^3-6*x^2-4*x+24'); %function can be changed
+clear all; clc; f = inline('x^3-6*x^2-4*x+24'); %function can be changed
 a = input('Lower Limit: '); b = input('Upper Lower: ');
 h = input('Precision: '); x0 = (a+b)/2;
 while (abs(f(x0))>h)
